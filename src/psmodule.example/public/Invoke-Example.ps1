@@ -9,7 +9,11 @@
 
         [Parameter(Mandatory=$false)]
         [string]
-        $Parameter2
+        $Parameter2,
+
+        [Parameter(Mandatory=$false)]
+        [int]
+        $Parameter3
     )
 
     begin
